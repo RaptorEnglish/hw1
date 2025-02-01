@@ -113,6 +113,14 @@ class ULListStr {
    */
   void clear();
 
+  // MY HELPERS
+  Item* get_head() {
+    return this->head_;
+  }
+
+  void print_head();
+  void print_tail();
+
  private:
   /** 
    * Returns a pointer to the item at index, loc,
